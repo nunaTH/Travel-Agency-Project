@@ -1,0 +1,140 @@
+.jumbotron { 
+  background-color: beige; /* Sand */
+  color: #0E172A; /* Dark Blue */
+  padding: 80px 50px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.container-fluid {
+  padding: 100px 50px;
+}
+
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+/* Add an orange color to all icons and set the font-size */
+.logo-small {
+  color: #0E172A;
+  font-size: 150px;
+}
+
+.logo {
+  color: #0E172A;
+  font-size: 100px;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: gainsboro ;/*dark blue*/
+  z-index: 9999;
+  border: 0;
+  font-size: 18px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #17202A !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #17202A !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer .glyphicon {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0E172A;
+}
+
+/* booking buttons */
+
+.confirmColour {
+    background-color: #0E172A;
+    color: whitesmoke;
+}
+
+.cancelColour {
+    background-color: #c2b280;
+    color: #0E172A;
+}
+
+/* Modal helper */
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+/* button farbe */
+.register-button-background {
+    background-color: #c2b280;
+    color: white;
+}
+
+/* image size in booking */
+.booking-card-image {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.register-bg{
+    background-color:#c2b280; 
+  }
+  
+.register h1 { color: #000; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
