@@ -1,5 +1,5 @@
 # Travel-Agency-Project
-The Project is part of Education for Sorfware Developer at Control Data Traning(CDT) GmbH, Nuremberg.
+The Project is part of Education for Sorfware Developer at Control Data Training(CDT) GmbH, Nuremberg.
 
 ### Rationale for the project
 The program developed in the project is intended to transfer the generated data into a relational database model without redundancy. In addition to the cost and time savings through the automation of this process, input errors by the user would sometimes be completely avoided. In addition, these could be more easily monitored and eliminated.
